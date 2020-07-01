@@ -1,0 +1,10 @@
+note over selain:
+estetään oletustoiminta, 
+luodaan ja lisätään uusi muistiinpano listalle, 
+piirretään muistiinpanolista uudestaan.
+end note
+selain->palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+palvelin->selain: 201 status code
+note over palvelin
+JSON päivittyy.
+end note
