@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Courses = [
     {
       name: 'Half Stack application development',
